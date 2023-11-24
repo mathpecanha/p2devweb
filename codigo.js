@@ -109,7 +109,7 @@ const preenche = (atleta) => {
 
 const handleClick = (e) => {
     const artigo = e.target.closest('article');
-    window.location = `https://mathpecanha.github.io/outra.html?id=${artigo.dataset.id}`;
+    window.location = `https://mathpecanha.github.io/p2devweb/outra.html?id=${artigo.dataset.id}`;
 }
 
 
