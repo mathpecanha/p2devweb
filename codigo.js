@@ -53,7 +53,7 @@ const url = "https://botafogo-atletas.mange.li";
     const btnSair = document.createElement('button');
     btnSair.textContent = 'Sair';
     btnSair.className = 'btnSair' 
-    btnSair.onclick = () => {window.location = '/';};
+    btnSair.onclick = () => {window.location = '/p2devweb';};
 
   
     // Adicionar os botões à div
@@ -109,7 +109,7 @@ const preenche = (atleta) => {
 
 const handleClick = (e) => {
     const artigo = e.target.closest('article');
-    window.location = `/outra.html?id=${artigo.dataset.id}`;
+    window.location = `https://mathpecanha.github.io/outra.html?id=${artigo.dataset.id}`;
 }
 
 
