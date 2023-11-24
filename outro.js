@@ -5,7 +5,7 @@ const nascimento = document.getElementById('nascimento');
 const altura = document.getElementById('altura');
 const btnVoltar = document.getElementById('btnVoltar');
 
-btnVoltar.onclick = () => window.location = 'https://mathpecanha.github.io/card.html';
+btnVoltar.onclick = () => window.location = 'https://mathpecanha.github.io/p2devweb/card.html';
 
 const pegar_coisas = async (caminho) => {
     const resposta = await fetch(caminho);
