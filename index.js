@@ -10,7 +10,7 @@ function validateLogin() {
 
     if (hashedPassword === '81dc9bdb52d04dc20036dbd8313ed055') { 
         alert('Login bem-sucedido!');
-        window.location = '/card.html';
+        window.location = 'https://mathpecanha.github.io/card.html';
     } else {
         document.getElementById('erro').innerText = 'Senha incorreta.';
     }
